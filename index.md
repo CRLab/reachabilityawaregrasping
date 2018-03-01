@@ -4,7 +4,7 @@
 #### Iretiayo Akinola, Jacob Varley, Boyuan Chen  and Peter Allen
 
 
-![Visualization of cross sections of the precomputed reachable space for a Fetch Robot and Staubli Arm with Barrett Hand.](./images/fetch_staubli.pdf)
+![Visualization of cross sections of the precomputed reachable space for a Fetch Robot and Staubli Arm with Barrett Hand.](./images/fetch_staubli.png)
 
 
 ### Abstract
