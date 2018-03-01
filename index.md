@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/CRLab/reachabilityawaregrasping/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Workspace Aware Online Grasp Planning
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+#### Iretiayo Akinola, Jacob Varley, Boyuan Chen  and Peter Allen
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Visualization of cross sections of the precomputed reachable space for a Fetch Robot and Staubli Arm with Barrett Hand.](./images/hri.png)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Abstract
+This work provides a framework for a workspace aware online grasp planner. This framework greatly improves the performance of standard online grasp planning algorithms by incorporating a notion of reachability into the online grasp planning process.  Offline, a database of hundreds of thousands of unique end-effector poses were queried for feasability.  At runtime, our grasp planner uses this database to bias the hand towards reachable end-effector configurations. The bias keeps the grasp planner in accessible regions of the planning scene so that the resulting grasps are tailored to the situation at hand. This results in a higher percentage of reachable grasps, a higher percentage of successful grasp executions, and a reduced planning time. We also present experimental results using simulated and real environments.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+### Links
 
-**Bold** and _Italic_ and `Code` text
+- Paper
+- Bibtex
+- Code for Reachability space generation
+- Reachability Space Data for Fetch Robot and Staubli-Barrett Hand
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Video
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CRLab/reachabilityawaregrasping/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[![Reachability_Aware_Grasping_Video](https://img.youtube.com/vi/KD06fDdbjFA/0.jpg)](https://youtu.be/KD06fDdbjFA)
