@@ -20,12 +20,12 @@ This work provides a framework for a workspace aware online grasp planner. This 
 
 
 <hr />
-### Links (Coming soon)
+### Links
 
-- Paper
-- Bibtex
-- Code for Reachability space generation
-- Reachability Space Data for Fetch Robot and Staubli-Barrett Hand
+- Paper: This work was submitted to IROS 2018. Arxiv link [here](https://arxiv.org/abs/1806.11402)
+- Top level workspace [here](http://github.com/CRLab/reachability_aware_grasping_ws.git)
+- Code for Reachability space generation [here](http://github.com/CRLab/reachability_space_generation.git)
+- Reachability Space Data for [Fetch Robot](http://github.com/CRLab/fetch_reachability_config.git) and [Staubli-Barrett Hand](https://github.com/CRLab/staubli_barrett_reachability_config.git)
 
 
 ![Visualization of cross sections of the precomputed reachable space for a Fetch Robot and Staubli Arm with Barrett Hand.](./images/fetch_staubli.png)
